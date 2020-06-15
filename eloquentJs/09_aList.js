@@ -1,4 +1,4 @@
-// A  function thar builds a list out of an array
+// A  function that builds a list out of an array
 
 function arrayToList (array = []) {
     let list = {}
