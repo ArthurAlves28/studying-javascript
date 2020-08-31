@@ -46,7 +46,12 @@
                     </div>
                     <div class="input-field col s6">
                         <label for="confirmPassword">Confirm Password</label>
-                        <input type="password" name="Confirm Password" id="confirmPassword"/>
+                        <input 
+                        type="password" 
+                        name="Confirm Password" 
+                        id="confirmPassword" 
+                        onfocusout="validateConfirmPassword()"
+                        />
                         <span class="helper-text"></span>
                     </div>
                 </div>
@@ -57,7 +62,7 @@
                         type="email" 
                         name="Email" 
                         id="email"
-                        onfocusout="validateConfirmPassword()"
+                        onfocusout="validateEmail()"
                         />
                         <span class="helper-text"></span>
                     </div>
